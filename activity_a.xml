@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/latd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ss1"
+            android:layout_width="277dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Session 1"
+
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/ss2"
+            android:layout_width="277dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Session 2"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/ss3"
+            android:layout_width="277dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Session 3"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/ss4"
+            android:layout_width="277dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Session 4"
+            app:cornerRadius="30dp" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
